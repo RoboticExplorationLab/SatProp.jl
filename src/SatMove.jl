@@ -1,5 +1,6 @@
 #This code is to propagate forward the motion of celestial bodies in the
 #earth central frame
+module SatMove
 using Pkg;
 using LinearAlgebra;
 Pkg.add("DifferentialEquations");
@@ -120,3 +121,4 @@ end
 
 #plot earth track
 plot(long,lat)
+end
